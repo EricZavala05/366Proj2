@@ -1,9 +1,6 @@
 import numpy as np
 import array as ar
 
-def error(val):
-    return{
-        }[val]    
 
 def hexdecode(char):
     return{
@@ -168,7 +165,7 @@ outfile = open('out.txt','w')
 ##print('doesn\'t crash 0')
 
 order66 = mipsMachine(binary)
-
+#execute order 66.
 order66.execute()
 
 order66.result()
