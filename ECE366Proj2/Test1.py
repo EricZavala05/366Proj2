@@ -75,6 +75,7 @@ class mipsMachine:
             self.reg[0] = 0 #reg0 is always 0
             self.count[0]+=1
         print('fell off bottom')
+	self.result()
 
         
     def rtype(self,command):
@@ -190,7 +191,3 @@ outfile.close()
 order66 = mipsMachine(binary)
 
 order66.execute()
-
-order66.result()
-
-
